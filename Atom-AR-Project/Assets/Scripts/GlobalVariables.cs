@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class GlobalVariables : MonoBehaviour
 {
-    public static int OxygenTotalElectrons = 8;
-    public static int CurrentLevel = 1;
-    public static int FirstLevelElectrons = 0;
-    public static int SecondLevelElectrons = 0;
-    public static int ThirdLevelElectrons = 0;
-    public static int FourthLevelElectrons = 0;
+    public static int OxygenTotalElectrons;
+    public static int CurrentLevel;
+    public static int FirstLevelElectrons;
+    public static int SecondLevelElectrons;
+    public static int ThirdLevelElectrons;
+    public static int FourthLevelElectrons;
     public static int TotalNumberOfElectrons;
     public GameObject FirstPlatform;
     public GameObject SecondPlatform;
@@ -18,6 +18,12 @@ public class GlobalVariables : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        OxygenTotalElectrons = 8;
+        CurrentLevel = 1;
+        FirstLevelElectrons = 0;
+        SecondLevelElectrons = 0;
+        ThirdLevelElectrons = 0;
+        FourthLevelElectrons = 0;
         TotalNumberOfElectrons = FirstLevelElectrons + SecondLevelElectrons + ThirdLevelElectrons + FourthLevelElectrons;
     }
     

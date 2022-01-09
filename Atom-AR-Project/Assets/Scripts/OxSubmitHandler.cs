@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OxSubmitHandler : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class OxSubmitHandler : MonoBehaviour
             Debug.Log(GlobalVariables.FourthLevelElectrons);
             Debug.Log("Oxygen Successful");
             Debug.Log("-----------------------------------");
+            SceneManager.LoadScene("SuccessScene");
         } else
         {
             Debug.Log("-----------------------------------");
@@ -24,6 +26,7 @@ public class OxSubmitHandler : MonoBehaviour
             Debug.Log(GlobalVariables.FourthLevelElectrons);
             Debug.Log("Oxygen Failed");
             Debug.Log("-----------------------------------");
+            SceneManager.LoadScene("FailureScene");
         }
     }
 }
