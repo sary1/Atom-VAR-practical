@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Oxygen4" size="5.000000 6.880081" />
+    <ImageTarget name="Hydrogen4" size="5.000000 6.708984" />
+    <ImageTarget name="Hydrogen2" size="5.000000 6.958128" />
+    <ImageTarget name="Oxygen" size="5.000000 6.908867" />
+    <ImageTarget name="Hydrogen" size="5.000000 6.666667" />
+    <ImageTarget name="RCardDesignJpg" size="5.000000 6.751701" />
+    <ImageTarget name="card2" size="5.000000 6.666667" />
+    <ImageTarget name="PeriodicTable" size="5.000000 4.978541" />
+    <ImageTarget name="card" size="5.000000 6.666667" />
+    <ImageTarget name="card1" size="5.000000 6.986899" />
+    <ImageTarget name="book" size="5.000000 7.465008" />
+  </Tracking>
+</QCARConfig>
