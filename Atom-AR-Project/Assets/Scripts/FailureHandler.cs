@@ -7,7 +7,11 @@ public class FailureHandler : MonoBehaviour
 {
     public void GameFailureHandler()
     {
-        Debug.Log("Clicked");
         SceneManager.LoadScene("EnergyLevel");
+    }
+
+    public void GameInertFailureHandler()
+    {
+        SceneManager.LoadScene("InertGasScene");
     }
 }

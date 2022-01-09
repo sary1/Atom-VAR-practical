@@ -23,7 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FailureScene.unity
     guid: b138764f3f1a5c746a15d2ee6a463b9b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/FailureInertScene.unity
+    guid: 70706bd4912fd03458f79920b52055bd
   - enabled: 1
     path: Assets/Scenes/InertGasScene.unity
-    guid: fca35a9eddd698c42a7fbd96a179d969
+    guid: ede5d54e65df6a44886afdff1fee0b06
   m_configObjects: {}

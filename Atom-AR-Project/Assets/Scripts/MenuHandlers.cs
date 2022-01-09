@@ -19,4 +19,9 @@ public class MenuHandlers : MonoBehaviour
     {
         SceneManager.LoadScene("EnergyLevel");
     }
+
+    public void InertGasLevelHandler()
+    {
+        SceneManager.LoadScene("InertGasScene");
+    }
 }
