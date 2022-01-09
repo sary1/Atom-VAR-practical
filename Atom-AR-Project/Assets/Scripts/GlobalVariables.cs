@@ -5,6 +5,7 @@ using UnityEngine;
 public class GlobalVariables : MonoBehaviour
 {
     public static int OxygenTotalElectrons;
+    public static int HydrogenTotalElectrons;
     public static int CurrentLevel;
     public static int FirstLevelElectrons;
     public static int SecondLevelElectrons;
@@ -19,6 +20,7 @@ public class GlobalVariables : MonoBehaviour
     void Start()
     {
         OxygenTotalElectrons = 8;
+        HydrogenTotalElectrons = 1;
         CurrentLevel = 1;
         FirstLevelElectrons = 0;
         SecondLevelElectrons = 0;
