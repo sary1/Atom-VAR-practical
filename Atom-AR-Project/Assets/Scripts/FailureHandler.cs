@@ -14,4 +14,9 @@ public class FailureHandler : MonoBehaviour
     {
         SceneManager.LoadScene("InertGasScene");
     }
+
+    public void CombinationInertFailureHandler()
+    {
+        SceneManager.LoadScene("CombinationScene");
+    }
 }

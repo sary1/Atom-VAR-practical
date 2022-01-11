@@ -24,4 +24,9 @@ public class MenuHandlers : MonoBehaviour
     {
         SceneManager.LoadScene("InertGasScene");
     }
+
+    public void CombinationLevelHandler()
+    {
+        SceneManager.LoadScene("CombinationScene");
+    }
 }
