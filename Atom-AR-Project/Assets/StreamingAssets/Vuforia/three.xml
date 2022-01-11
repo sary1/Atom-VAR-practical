@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Water8" size="5.000000 6.695070" />
+    <ImageTarget name="Oxygen8" size="5.000000 6.836545" />
+    <ImageTarget name="Hydrogen8" size="5.000000 6.900878" />
     <ImageTarget name="Water7" size="5.000000 6.682868" />
     <ImageTarget name="Oxygen7" size="5.000000 6.666667" />
     <ImageTarget name="Hydrogen7" size="5.000000 6.790123" />
