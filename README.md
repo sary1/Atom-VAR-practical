@@ -8,4 +8,4 @@ An interactive way to visualise the elements of the periodic table and their ato
 
 Sary Elmelegy, Bimalesh Sahoo, Robins Mathew
 
-![](images/atom.JPG)
+![](images/Artboard.png)
