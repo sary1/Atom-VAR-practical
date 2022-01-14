@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IncreaseLevel : MonoBehaviour
 {
+    public AudioSource LevelChange;
     public void LevelIncreaser ()
     {
         if (GlobalVariables.CurrentLevel == 4)
@@ -14,5 +15,6 @@ public class IncreaseLevel : MonoBehaviour
         {
             GlobalVariables.CurrentLevel++;
         }
+        LevelChange.Play();
     }
 }

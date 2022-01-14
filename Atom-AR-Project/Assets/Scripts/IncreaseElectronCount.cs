@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IncreaseElectronCount : MonoBehaviour
 {
+    public AudioSource ElectronNumberChange;
     // Start is called before the first frame update
     public void ElectronIncreaser ()
     {
@@ -22,5 +23,6 @@ public class IncreaseElectronCount : MonoBehaviour
         {
             GlobalVariables.FourthLevelElectrons++;
         }
+        ElectronNumberChange.Play();
     }
 }

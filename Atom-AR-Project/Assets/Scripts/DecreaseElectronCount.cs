@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DecreaseElectronCount : MonoBehaviour
 {
+    public AudioSource ElectronNumberChange;
     public void ElectronDecreaser()
     {
         if (GlobalVariables.CurrentLevel == 1 && GlobalVariables.FirstLevelElectrons > 0)
@@ -22,5 +23,6 @@ public class DecreaseElectronCount : MonoBehaviour
         {
             GlobalVariables.FourthLevelElectrons--;
         }
+        ElectronNumberChange.Play();
     }
 }
